@@ -1,11 +1,5 @@
 [gd_scene format=3 uid="uid://b202mds1kl4pu"]
 
-<<<<<<< Updated upstream
-=======
-[ext_resource type="PackedScene" uid="uid://cyhis48rhplww" path="res://character_body_3d.tscn" id="1_37kl0"]
-[ext_resource type="PackedScene" uid="uid://ji14isjp1l0g" path="res://item.tscn" id="2_8uh7m"]
-
->>>>>>> Stashed changes
 [sub_resource type="BoxMesh" id="BoxMesh_er26o"]
 size = Vector3(17.57074, 0.060070314, 14.283264)
 
@@ -23,15 +17,3 @@ mesh = SubResource("BoxMesh_er26o")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D/StaticBody3D" unique_id=570603458]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.26904297, -0.21582031, -0.39419556)
 shape = SubResource("BoxShape3D_er26o")
-<<<<<<< Updated upstream
-=======
-
-[node name="CharacterBody3D" parent="." unique_id=1045600458 instance=ExtResource("1_37kl0")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.2607255, 0.59739447, 2.7120595)
-
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1250149390]
-transform = Transform3D(1, 0, 0, 0, 0.7882116, 0.6154043, 0, -0.6154043, 0.7882116, 0, 9.920203, 8.411363)
-
-[node name="item" parent="." unique_id=2061491618 instance=ExtResource("2_8uh7m")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5745087, 1.0825976, -1.243525)
->>>>>>> Stashed changes
