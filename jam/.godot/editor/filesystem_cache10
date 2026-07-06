@@ -1,4 +1,7 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1783344915
-icon.svg::CompressedTexture2D::7522307079299650735::1783342664::1783344915::1::::<><><>0<>0<>a877d2ce852f65d93ed3ae982b91f766<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-penis_bobra.tscn::PackedScene::4414533866354799652::1783344767::0::1::::<><><>0<>0<><>::
+::res://::1783346672
+camera_3d.gd::GDScript::3893645835439423630::1783346474::0::1::::<>Camera3D<><>0<>0<><>::
+character_body_3d.gd::GDScript::5878489041371522646::1783345740::0::1::::<>CharacterBody3D<><>0<>0<><>::
+character_body_3d.tscn::PackedScene::6472343714147877110::1783346631::0::1::::<><><>0<>0<><>::uid://cp0t4deuovvsw::::res://character_body_3d.gd<>uid://bvqd1poecxxn7::::res://camera_3d.gd
+icon.svg::CompressedTexture2D::7522307079299650735::1783344518::1783344562::1::::<><><>0<>0<>a877d2ce852f65d93ed3ae982b91f766<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+test.tscn::PackedScene::4334789880674703806::1783346608::0::1::::<><><>0<>0<><>::
