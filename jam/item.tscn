@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://dvrb2ro67pwyp"]
+[gd_scene format=3 uid="uid://ji14isjp1l0g"]
+
+[ext_resource type="Script" uid="uid://ktxaoj8yhrf4" path="res://item.gd" id="1_tnite"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_653ag"]
 
@@ -8,7 +10,8 @@ height = 0.89953613
 
 [node name="item" type="Node3D" unique_id=2061491618]
 
-[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=230819659]
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=230819659 groups=["item"]]
+script = ExtResource("1_tnite")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=1438198147]
 shape = SubResource("SphereShape3D_653ag")

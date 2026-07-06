@@ -1,3 +1,6 @@
 res://character_body_3d.tscn
 res://camera_3d.gd
 res://item.tscn
+res://character_body_3d.gd
+res://static_body_3d.gd
+res://item.gd
