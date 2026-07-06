@@ -1,5 +1,7 @@
 [gd_scene format=3 uid="uid://cyhis48rhplww"]
 
+[ext_resource type="Script" uid="uid://bvqd1poecxxn7" path="res://camera_3d.gd" id="1_iwpo4"]
+
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_er26o"]
 
 [node name="CharacterBody3D" type="CharacterBody3D" unique_id=1045600458]
@@ -9,3 +11,7 @@ shape = SubResource("CapsuleShape3D_er26o")
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=2095556818]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.471074, -0.14588672)
+script = ExtResource("1_iwpo4")
+
+[node name="RayCast3D" type="RayCast3D" parent="Camera3D" unique_id=1378115437]
+transform = Transform3D(0.9999072, 2.4102872e-10, -0.013623944, -0.013597471, 0.062312707, -0.9979641, 0.00084894453, 0.9980567, 0.06230691, 0.0012657642, -0.015752196, -0.09325144)
