@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://dvrb2ro67pwyp"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_653ag"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_653ag"]
+radius = 0.44976807
+height = 0.89953613
+
+[node name="item" type="Node3D" unique_id=2061491618]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=230819659]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=1438198147]
+shape = SubResource("SphereShape3D_653ag")
+
+[node name="Mesh" type="MeshInstance3D" parent="StaticBody3D" unique_id=339534433]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.037416577, -0.03543508, -0.015014783)
+mesh = SubResource("CapsuleMesh_653ag")
