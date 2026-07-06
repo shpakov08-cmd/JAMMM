@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="Jam"
+run/main_scene="uid://b202mds1kl4pu"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 

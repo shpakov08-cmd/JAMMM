@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 MeshInstance3D
 CollisionShape3D
 StaticBody3D
+=======
+Node3D
+CollisionShape3D
+StaticBody3D
+MeshInstance3D
+>>>>>>> 749cdc8b377a754f4cbfe5394fd8794005281924
 RayCast3D
 Camera3D
 CharacterBody3D
